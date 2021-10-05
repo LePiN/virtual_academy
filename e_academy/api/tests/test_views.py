@@ -8,9 +8,9 @@ from rest_framework import status
 from e_campus.models import Course
 from e_campus.models import Enrollment
 from e_campus.models import Student
-from .serializers import CourseSerializer
-from .serializers import EnrollmentSerializer
-from .serializers import StudentSerializer
+from api.serializers import CourseSerializer
+from api.serializers import EnrollmentSerializer
+from api.serializers import StudentSerializer
 
 
 def image_default():
